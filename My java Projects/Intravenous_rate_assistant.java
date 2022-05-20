@@ -39,7 +39,7 @@ public class caseStudy {
         return mg_kg_hr * kg * mg_ml;
     }
 
-    public static void get_units_conc () {
+    static void get_units_conc () {
         System.out.print("Please enter rate in units/r: ");
         units_hr = in.nextDouble();
         System.out.print("Please enter concentration in units/ml: ");
